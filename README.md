@@ -15,3 +15,11 @@ In separate terminal
 ```
 python3 client.py IP TCPPORT UDPPORT
 ```
+Currently program only supports local host as the server port.
+
+**Files Walkthrough**
+|File/Folder         | Purpose                                                                                                                                        |
+|--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------:|
+|server.py      | code to run the serever
+|client.py         | code to run the client
+|credentials.txt      | list of users and passwords
